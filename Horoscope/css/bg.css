@@ -1,0 +1,21 @@
+           
+           body{
+               color: black;
+               text-align: center;
+               background-image: 		url(../img_ranking/star.jpg);
+	           -moz-background-size:	cover;
+	           background-size:		cover;
+               overflow: hidden;
+           }
+            .layerTransparent{
+                padding-top: 40px;
+                padding-bottom: 400px;
+	            background-color:		rgba(255,255,255,0.5);
+            }
+            .horoscope{
+                width: 400px;
+                height: 300px;
+            }
+            .title_name{
+                padding-bottom: 30px;
+            }

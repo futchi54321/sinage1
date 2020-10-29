@@ -1,0 +1,56 @@
+#dropArea {
+  overflow: hidden;
+  padding: 40px 10px;
+  background: #ddd;
+  border: 3px #666 dashed;
+  color: #999;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#dropArea.dragover,
+#dropArea:active {
+  background: #cfc;
+  border-color: #9c9;
+  color: #9c9;
+}
+
+#output img {
+  display: block;
+  margin: 15px auto;
+}
+
+.po    {
+    text-align: center;
+     margin: 0 auto;
+}
+
+.deletefile[]  {
+    content:        '';
+    width:          32px;           /* ボックスの横幅 */
+    height:         32px;           /* ボックスの縦幅 */
+   /* display:        inline-block;*/
+    position:       absolute;
+    left:           0;
+    background-color:   #fff;
+    box-shadow:     inset 1px 2px 3px 0px #000;
+    border-radius:      6px 6px 6px 6px;
+}
+/* 元のチェックボックスを表示しない */
+.deletefile[] input[type=checkbox] {
+    display:        none;
+}
+/* チェックした時のスタイル */
+.deletefile[] input[type=checkbox]:checked  {
+    content:        '\2713';        /* チェックの文字 */
+    font-size:      34px;           /* チェックのサイズ */
+    color:          #fff;           /* チェックの色 */
+    background-color:   #06f;           /* チェックした時の色 */
+}
+
+.chpo    {
+    text-align: center;
+     margin: 0 auto;
+}
+

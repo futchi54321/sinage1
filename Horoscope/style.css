@@ -1,0 +1,140 @@
+html {
+        touch-action: none;
+    }
+
+div{
+width: auto;
+padding: 20px;
+}
+
+p{
+    
+    font-size: 50px;
+}
+
+h1{
+    font-size: 100px;
+    
+}
+
+.midasi{
+    text-align: center;
+    width: 300px;
+    margin-left:  300px;
+    margin-top: 50px; 
+}
+
+
+
+
+.seiza {
+    position: absolute;
+    font-size: 70px;
+    margin-left: 1050px;
+    margin-top: 60px;
+}
+
+.seizagazo{
+    position: absolute;
+    margin-left: 1010px;
+    margin-top: 150px;
+    
+}
+
+.message{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 40px;
+    font-size: 30px;
+    width: 500px;
+    border: 1px solid #c2c2c2;
+}
+
+.luck{
+    margin-left: 980px;
+    font-size: 40px;
+}
+
+/* menu */
+    .cp_offcm01 .cp_menu {
+        position: fixed;
+        top: 0;
+        right: -100vw;
+        width: 250px;
+        height: 100%;
+        cursor: pointer;
+        -webkit-transition: 0.53s transform;
+        transition: 0.53s transform;
+        -webkit-transition-timing-function: cubic-bezier(.38, .52, .23, .99);
+        transition-timing-function: cubic-bezier(.38, .52, .23, .99);
+        background-color: #607D8B;
+        opacity: 0.8;
+    }
+
+    .cp_offcm01 .cp_menu ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cp_offcm01 .cp_menu li {
+        list-style: none;
+    }
+
+    .cp_offcm01 .cp_menu li a {
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .cp_offcm01 #cp_toggle01 {
+        position: absolute;
+        display: none;
+        opacity: 0;
+    }
+
+    .cp_offcm01 #cp_toggle01:checked~.cp_menu {
+        -webkit-transform: translateX(-100vw);
+        transform: translateX(-100vw);
+    }
+
+    /* menu toggle */
+    .cp_offcm01 #cp_toggle01~label {
+        display: block;
+        padding: 0.5em;
+        cursor: pointer;
+        -webkit-transition: 0.5s transform;
+        transition: 0.5s transform;
+        -webkit-transition-timing-function: cubic-bezier(.61, -0.38, .37, 1.27);
+        transition-timing-function: cubic-bezier(.61, -0.38, .37, 1.27);
+        text-align: center;
+        color: #333333;
+    }
+
+    .cp_offcm01 #cp_toggle01:checked~label {
+        -webkit-transform: translateX(-250px);
+        transform: translateX(-250px);
+    }
+
+    .cp_offcm01 #cp_toggle01~label::before {
+        font-family: 'FontAwesome';
+        content: url(img/open.png);
+        font-size: 2em
+    }
+
+    .cp_offcm01 #cp_toggle01:checked~label::before {
+        content: url(img/close.png);
+    }
+
+    .cp_cont{
+        position: absolute;
+        margin-left: 93%;
+        margin-top: -60px;
+    }
+
+    body{
+        zoom: 1.1;
+        -moz-transform: scale(1.1);
+        overflow: hidden;
+    }

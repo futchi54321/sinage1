@@ -1,0 +1,109 @@
+/*  header {background-color: #f0f0f0;}  */
+
+body {
+    background-color: #f0f0f0;
+}
+
+h1     {
+    color: black;
+    font-family: Sitka Small Bold Italic;
+    background-color: #f0f0f0;
+    min-width: 800px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+li     {
+    float: left;
+    display: block;
+    font-weight: bolder;
+}
+
+.box1  {
+    height: 30px;
+    min-width: 800px;
+}
+
+/* div {height: auto;} */
+
+.on    {
+    background-color: #b9b9b9;
+    width: 125px;
+    height: 40px;
+/*  margin-right: 5px;  */
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.off   {
+    background-color: #f0f0f0;
+    width: 125px;
+    height: 40px;
+/*    margin-right: 5px;*/
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+.on a  {
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.on a:link{
+    color: #ffffff;
+}
+
+.on a:visited    {
+    color: #ffffff;
+}
+
+.on a:hover      {
+    color: #ffffff;
+}
+
+.off a    {
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.off a:link     {
+    color: #000000;
+
+}
+
+.off a:visited   {
+    color: #000000;
+}
+
+.off a:hover     {
+    color: #ff0000;
+}
+
+.box2    {
+    clear: both;
+    border-top: solid 10px #b9b9b9;
+    border-bottom: solid 3px #b9b9b9;
+    border-left: solid 3px #b9b9b9;
+    border-right: solid 3px #b9b9b9;
+    border-radius: 5px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    min-width: 800px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+ul     {
+    margin: 0px;
+}
+

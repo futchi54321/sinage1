@@ -1,0 +1,65 @@
+table{
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+#weekname td{
+    background-color: azure;
+}
+
+
+p{
+    font-size: 50px;
+}
+
+div.date{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+tr{
+}
+
+tr.number{
+    height: 50px;
+}
+tr.detail1{
+    height: 149px;
+}
+tr.detail2{
+    height: 149px;
+}
+tr.detail3{
+    height: 148px;
+}
+tr.detail4{
+    height: 148px;
+}
+tr.detail5{
+    height: 148px;
+}
+
+
+td{
+    text-align: center;
+    width: 162px;
+    font-size: 20px;
+}
+td.today{
+    background-color: rgba(255, 150, 0, 0.4);
+}
+td.weather{
+    background-color: rgba(255, 0, 0, 0.4);
+}
+#cal1 td{
+}
+#cal2 td{
+}
+#cal3 td{
+}
+#cal4 td{
+}
+#cal5 td{
+}
+

@@ -1,0 +1,7 @@
+body{
+/* overflow: hidden; */
+
+}
+.twitter-timeline{
+    pointer-events: none;
+}
